@@ -1,10 +1,10 @@
 /**
  * Portfolio component
  *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
+ * Highlights some of your creations. These can be designs, websites,
+ * open source contributions, articles you've written, and more.
  *
- * This is a great area for you to to continually add to and refine
+ * This is a great area for you to continually add to and refine
  * as you continue to learn and create.
  */
 
@@ -14,12 +14,12 @@ import React from "react";
  * Desk image
  *
  * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
+ * updating below imageAltText to a string that represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/developer-8829735_1280.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -27,32 +27,26 @@ const imageAltText = "desktop with books and laptop";
  * Project list
  *
  * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
+ * links section. Below is updated to reflect your portfolio projects and contributions.
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Online Auction System",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed an interactive Online Auction System where users can bid on items in real-time. The project involved creating user authentication, auction management, and an intuitive UI for a seamless bidding experience.",
+    url: "https://github.com/yourusername/online-auction-system",  // Replace with actual GitHub link if available
   },
   {
-    title: "Web Development for Beginners",
+    title: "Agricultural Waste Repurposing Platform",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built a web platform connecting farmers with companies to repurpose agricultural waste, featuring user dashboards, product listings, and tailored functionalities for each user type.",
+    url: "https://github.com/yourusername/agri-waste-platform",  // Replace with actual GitHub link if available
   },
   {
-    title: "My Resume Site",
+    title: "Rainfall Prediction (using ARIMA and Prophet model)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Implemented time-series analysis to predict rainfall patterns using ARIMA and Prophet models, providing accurate forecasting insights for agricultural planning and resource management.",
+    url: "https://example.com/rainfall-prediction",  // Replace with actual URL if available
   },
 ];
 

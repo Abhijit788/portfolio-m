@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/ai-generated-8520972_1280.png";
 
 const imageAltText = "purple and blue abstract background";
 
 /**
- * Sort description that expands on your title on the Home component.
+ * Short description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm Abhijit Arote, a third-year IT engineering student and Design Co-head at the Geeks for Geeks club. I enjoy creating intuitive and visually appealing user interfaces, focusing on simplicity and user-centered design.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * passionate about, or enjoy.
  */
 const skillsList = [
+  "UI/UX design",
   "Web design",
-  "User experience",
+  "Frontend development",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
   "Graphic design",
+  "Adobe Illustrator (beginner)",
+  "Adobe Photoshop (beginner)",
+  "Canva",
+  "Figma",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "As a fast learner and problem-solver, I’m passionate about crafting solutions that combine creativity with usability. My experience as a GFG Design Co-head has honed my ability to create impactful visuals while collaborating closely with teams to bring ideas to life.";
 
 const About = () => {
   return (
