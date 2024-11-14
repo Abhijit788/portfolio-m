@@ -34,19 +34,19 @@ const projectList = [
     title: "Online Auction System",
     description:
       "Developed an interactive Online Auction System where users can bid on items in real-time. The project involved creating user authentication, auction management, and an intuitive UI for a seamless bidding experience.",
-    url: "https://github.com/yourusername/online-auction-system",  // Replace with actual GitHub link if available
+    url: "https://github.com/yourusername/online-auction-system", // Replace with actual GitHub link if available
   },
   {
     title: "Agricultural Waste Repurposing Platform",
     description:
       "Built a web platform connecting farmers with companies to repurpose agricultural waste, featuring user dashboards, product listings, and tailored functionalities for each user type.",
-    url: "https://github.com/yourusername/agri-waste-platform",  // Replace with actual GitHub link if available
+    url: "https://github.com/yourusername/agri-waste-platform", // Replace with actual GitHub link if available
   },
   {
     title: "Rainfall Prediction (using ARIMA and Prophet model)",
     description:
       "Implemented time-series analysis to predict rainfall patterns using ARIMA and Prophet models, providing accurate forecasting insights for agricultural planning and resource management.",
-    url: "https://example.com/rainfall-prediction",  // Replace with actual URL if available
+    url: "https://example.com/rainfall-prediction", // Replace with actual URL if available
   },
 ];
 
