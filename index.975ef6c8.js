@@ -28790,9 +28790,9 @@ const imageAltText = "desktop with books and laptop";
         url: "https://github.com/Abhijit788/Auction-System.git"
     },
     {
-        title: "Agricultural Waste Repurposing Platform",
-        description: "Built a web platform connecting farmers with companies to repurpose agricultural waste, featuring user dashboards, product listings, and tailored functionalities for each user type.",
-        url: "https://github.com/yourusername/agri-waste-platform"
+        title: "DeepFake Detect UI Design",
+        description: "Designed a modern UI/UX for a DeepFake Detection platform with intuitive navigation and functionality, including a home page for feature highlights, a drag-and-drop upload section, and result visualization.",
+        url: "https://www.figma.com/design/d7YY2BvrK0DzRqT1LwI0In/DeepFake-Detect?node-id=0-1&t=VVm1UnMj24GuRtUq-1"
     },
     {
         title: "Rainfall Prediction (using ARIMA and Prophet model)",
